@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:fixtures": "playwright test e2e/saucedemo-pom-fixtures.spec.ts",
+    "test:pom": "playwright test e2e/saucedemo-pom.spec.ts",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "report:open": "playwright show-report playwright-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

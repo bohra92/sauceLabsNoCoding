@@ -1,0 +1,31 @@
+{
+  "validCheckoutInfo": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "postalCode": "12345"
+  },
+  "partialCheckoutInfo": {
+    "firstName": "John",
+    "lastName": "",
+    "postalCode": ""
+  },
+  "emptyCheckoutInfo": {
+    "firstName": "",
+    "lastName": "",
+    "postalCode": ""
+  },
+  "cartTotals": {
+    "singleItemTotal": {
+      "itemTotal": "$29.99",
+      "tax": "$2.40",
+      "total": "$32.39"
+    },
+    "twoItemsTotal": {
+      "itemTotal": "$39.98",
+      "tax": "$3.20",
+      "total": "$43.18"
+    }
+  },
+  "paymentInfo": "SauceCard #31337",
+  "shippingInfo": "Free Pony Express Delivery!"
+}
